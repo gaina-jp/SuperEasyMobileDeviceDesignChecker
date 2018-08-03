@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.phone {
+  width: 274px;
+  height: 557px;
+  background: url("../images/phone.png") 0 0 no-repeat;
+  box-sizing: border-box;
+  padding: 1px;
+}
+.phone-content {
+  width: 238px;
+  height: 395px;
+  margin: 68px 0 0 18px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.phone-content img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.phone-content::-moz-selection {
+  background-color: rgba(26,41,70,0.4);
+}
+.phone-content::selection {
+  background-color: rgba(26,41,70,0.4);
+}
+.phone-content::-webkit-scrollbar {
+  width: 2px;
+  background: transparent;
+  z-index: 10;
+}
+.phone-content::-webkit-scrollbar:horizontal {
+  height: 4px;
+}
+.phone-content::-webkit-scrollbar-track {
+  border-radius: 2px;
+}
+.phone-content::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: rgba(0,0,0,0.3);
+}
