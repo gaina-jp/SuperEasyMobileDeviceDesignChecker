@@ -1,0 +1,4 @@
+# SuperEasyMobileDeviceDesignChecker
+めちゃくちゃ単純なやつでいいから欲しいって言われたから作った
+
+見ないで
